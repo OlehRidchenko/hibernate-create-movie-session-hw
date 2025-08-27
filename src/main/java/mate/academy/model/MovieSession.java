@@ -26,6 +26,9 @@ public class MovieSession {
     private CinemaHall cinemaHall;
     private LocalDateTime showTime;
 
+    public MovieSession() {
+    }
+
     public CinemaHall getCinemaHall() {
         return cinemaHall;
     }
